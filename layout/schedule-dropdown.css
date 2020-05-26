@@ -1,0 +1,65 @@
+.schedule-dropdown {
+  position: relative;
+}
+
+.scheduale__content {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  color: black;
+  opacity: 0.8;
+  border-radius: 5px;
+  padding: 20px 15px;
+  font-size: 13px;
+  font-weight: bold;
+
+  position: absolute;
+  top: 9999px;
+  left: 0;
+  //position: relative;
+}
+
+.scheduale__content::after {
+  content: "";
+  display: block;
+  border: 25px solid transparent;
+  border-bottom: 25px solid #fff;
+  position: absolute;
+  bottom: 95%;
+  right: 20px;
+}
+
+.scheduale__trigger {
+  text-align: end;
+  position: relative;
+  cursor: pointer;
+}
+
+.scheduale__trigger::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: transparent;
+  z-index: 5;
+}
+
+
+.schedual__button {
+  color: #dfb56d;
+  text-decoration: underline;
+}
+
+.scheduale__trigger:hover + .scheduale__content {
+  top: 40px;
+}
+
+.scheduale-hours {
+  line-height: 21px;
+  font-weight: normal;
+
+  margin-top: 5px;
+}

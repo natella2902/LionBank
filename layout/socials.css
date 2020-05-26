@@ -1,0 +1,26 @@
+.socials {
+  margin-right: 75px;
+}
+
+.social__list {
+  display: flex;
+}
+
+.social__item {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  
+  margin-right: 10px;
+  transition: 1s;
+
+  background-image: url('../pictures/socials/facebook.png');
+}
+
+.social__item:hover {
+  background-image: url('../pictures/socials/facebook-hover.png');
+}
+
+.social__item:last-child {
+  margin-right: 0px;
+}

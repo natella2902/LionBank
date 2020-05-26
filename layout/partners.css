@@ -1,0 +1,32 @@
+.partners {
+  background-color: #f4f5f5;
+}
+
+.partners__subtitle {
+  margin: 100px 0 80px;
+}
+
+.partners__container {
+  flex-direction: column;
+}
+
+.partners__subtitle {
+  color: #202123;
+}
+
+.partners__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+}
+
+.partner__item {
+  min-width: 20%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  margin-bottom: 5%;
+  
+} 

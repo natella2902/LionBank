@@ -1,0 +1,125 @@
+.form {
+  background-color: #f4f5f5;
+}
+
+.form__container {
+  flex-direction: column;
+}
+
+.form__subtitle {
+  color: #202123;
+  font-size: 48px;
+  font-weight: 700;
+  margin: 120px 0 60px;
+}
+
+.form-row {
+  display: flex;
+  margin-bottom: 30px;
+  color: #333333;
+} 
+
+.form-name {
+  display: flex;
+  margin-right: 30px; 
+  flex: 1;
+}
+
+.form-name:last-child {
+  margin-right: 0;
+}
+
+.form-name__input {
+  flex: 1;
+
+  color: #666666;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 25px 0 15px 30px ;
+  border-radius: 3px;
+  border: 1px solid #ffffff;
+
+  //outline: none;
+}
+
+.form-name__input:focus {
+  outline: 1px solid #dfb56d;
+}
+
+.form-name__input-comment {
+  resize: none;
+  color: #666666;
+  min-width: 100%;
+  min-height: 230px;
+  cursor: text;
+}
+
+.form-service__title {
+  color: #202123;
+  font-size: 18px;
+  font-weight: 400;
+  flex: 2;
+}
+
+.form-service__input {
+  display: none;
+}
+
+.form-service__list {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 5;
+}
+
+.form-service__item {
+  margin-right: 10px;
+  margin-bottom: 30px;
+}
+
+.form-service__name {
+  color: #333333;
+}
+
+
+.form-service__input {
+  font-size: 13px;
+  font-weight: 400;
+
+}
+
+.form-row--service {
+  margin: 30px 0 35px;
+}
+
+.form-service__desc {
+  padding: 12px 15px;
+  background-color: #e6e6e6;
+  border-radius: 17px;
+}
+
+
+.form-service__input:checked + .form-service__desc {
+  background-color: #c7e9d0;
+}
+
+.form-row--actions {
+  justify-content: flex-end;
+  margin-bottom: 110px;
+}
+
+.btn__reset {
+  margin-right: 20px;
+  background-color: #29292c;
+}
+
+.btn__reset:hover {
+  background-color: #8d8d8d;
+}
+
+.btn__submit {
+  background-color: #29292c;
+}
+
+.btn__submit:hover {
+  background-color: #dfb56d;
+}

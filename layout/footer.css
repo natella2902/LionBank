@@ -1,0 +1,15 @@
+.footer {
+  background-color: #29292c;
+}
+
+.footer__container {
+  border-top: 1px solid #353538; 
+}
+
+.footer__container {
+  padding: 50px 0;
+}
+
+.footer .left-side {
+  justify-content: flex-end;
+}
